@@ -1,0 +1,11 @@
+.input-text {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/*Texto debajo del otro*/
+
+#message span {
+  display: block;
+}

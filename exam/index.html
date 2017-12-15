@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="UTF-8">
+        <script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous">
+</script>
+      <script type="text/javascript" src="main.js"></script>
+      <link rel="stylesheet" href="main.css" type="text/css" />
+    </script>
+    </head>
+    <body>
+        <form method="POST">
+            <p>
+                <label for="first_name">Nombre:</label>
+                <input type="text" name="first_name" id="first_name" required class="input-text">
+            </p>
+            
+            <p>
+                <label for="">Apellidos:</label>
+                <input type="text" name="last_name" id="last_name" class="input-text">
+            </p>
+            
+            <p>
+                <label for="">Carrera:</label>
+                <input type="radio" name="career" value="ddmd" id="ddmd">
+                <label for="ddmd">DDMD</label>
+                <input type="radio" name="career" value="ux"  id="ux">
+                <label for="ux">UX</label>
+            </p>
+            <input type="submit" value="Registrar">
+        </form>
+        <p id="message"></p>
+    </body>
+</html>
