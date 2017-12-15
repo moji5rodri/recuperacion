@@ -13,7 +13,9 @@ app.use("/", express.static("exam"));
 app.post("/find", (request, response) => {
     console.log(request.body.first_name);
     console.log(request.body.last_name);
-    console.log(request.body.career);
+    console.log(request.body.nota_1);
+    console.log(request.body.nota_2);
+    console.log(request.body.nota_3);
     response.json({"method": "post", "success": true});
 
 });
